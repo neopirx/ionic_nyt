@@ -11,7 +11,7 @@ import 'rxjs/add/operator/map';
 
 @Injectable()
 export class NewsProvider {
-  url= 'https://api.nytimes.com/svc/topstories/v2/home.json';
+  url= 'https://api.nytimes.com/svc/topstories/v2/';
   apiKey = '3eb428542e814a37826ddf39d65616fb';
 
   constructor(
@@ -19,8 +19,24 @@ export class NewsProvider {
     console.log('Hello NewsProvider Provider');
   }
 
-  getNews() {
-    return this.http.get(this.url + '?api-key=' + this.apiKey);
+  getNewsHome() {
+    return this.http.get(this.url + 'home.json' + '?api-key=' + this.apiKey);
+  }
+
+  getNewsWorld() {
+    return this.http.get(this.url + 'world.json' + '?api-key=' + this.apiKey);
+  }
+
+  getNewsOpinion() {
+    return this.http.get(this.url + 'opinion.json' + '?api-key=' + this.apiKey);
+  }
+  
+  getNewsPolitics() {
+    return this.http.get(this.url + 'politics.json' + '?api-key=' + this.apiKey);
+  }
+
+  getNewsBusiness() {
+    return this.http.get(this.url + 'business.json' + '?api-key=' + this.apiKey);
   }
 
 }

@@ -3,11 +3,11 @@ import { NavController } from 'ionic-angular';
 import { NewsProvider } from '../../providers/news/news';
 
 @Component({
-  selector: 'page-home',
-  templateUrl: 'home.html'
+  selector: 'page-world',
+  templateUrl: 'world.html'
 })
 
-export class HomePage {
+export class WorldPage {
   news: any;
 
   constructor(public navCtrl: NavController, private newsProvider: NewsProvider) { 
@@ -15,7 +15,7 @@ export class HomePage {
   }
 
   ionViewWillEnter() { 
-    this.newsProvider.getNewsHome().subscribe(news => {
+    this.newsProvider.getNewsWorld().subscribe(news => {
       this.news = news;
       console.log(news);
   });

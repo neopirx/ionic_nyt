@@ -3,10 +3,11 @@
       <button ion-button menuToggle>
         <ion-icon name="menu"></ion-icon>
       </button>
-      <ion-title>Home</ion-title>
+      <ion-title>Opinion</ion-title>
     </ion-navbar>
   </ion-header>
   <ion-content>
+    
   </ion-content>
   <ion-content padding *ngIf="news">
     <ion-card *ngFor="let new of news.results">
@@ -15,8 +16,7 @@
             <p>{{new.updated_date}}</p>
           </ion-item>
         
-          <img src="{{new.multimedia[3].url}}">
-
+        
           <ion-card-content>
             <p>{{new.abstract}}</p>
           </ion-card-content>

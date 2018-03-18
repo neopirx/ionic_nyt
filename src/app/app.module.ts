@@ -6,7 +6,11 @@ import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
+import { OpinionPage } from '../pages/opinion/opinion';
+import { WorldPage } from '../pages/world/world';
+import { SportsPage } from '../pages/sports/sports';
+import { TechnologyPage } from '../pages/technology/technology';
+import { HealthPage } from '../pages/health/health';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -16,7 +20,11 @@ import { NewsProvider } from '../providers/news/news';
   declarations: [
     MyApp,
     HomePage,
-    ListPage
+    OpinionPage,
+    WorldPage,
+    SportsPage,
+    TechnologyPage,
+    HealthPage
   ],
   imports: [
     BrowserModule,
@@ -27,7 +35,11 @@ import { NewsProvider } from '../providers/news/news';
   entryComponents: [
     MyApp,
     HomePage,
-    ListPage
+    OpinionPage,
+    WorldPage,
+    SportsPage,
+    TechnologyPage,
+    HealthPage
   ],
   providers: [
     StatusBar,
