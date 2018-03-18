@@ -9,7 +9,18 @@ import { WorldPage } from '../pages/world/world';
 import { SportsPage } from '../pages/sports/sports';
 import { TechnologyPage } from '../pages/technology/technology';
 import { HealthPage } from '../pages/health/health';
-
+import { SciencePage } from '../pages/science/science';
+import { MoviesPage } from '../pages/movies/movies';
+import { FashionPage } from '../pages/fashion/fashion';
+import { BooksPage } from '../pages/books/books';
+import { NationalPage } from '../pages/national/national';
+import { PoliticsPage } from '../pages/politics/politics';
+import { UpshotPage } from '../pages/upshot/upshot';
+import { TheaterPage } from '../pages/theater/theater';
+import { FoodPage } from '../pages/food/food';
+import { TravelPage } from '../pages/travel/travel';
+import { AutomobilesPage } from '../pages/automobiles/automobiles';
+import { InsiderPage } from '../pages/insider/insider';
 
 @Component({
   templateUrl: 'app.html'
@@ -31,7 +42,18 @@ export class MyApp {
       { title: 'Opinions', component: OpinionPage },
       { title: 'Sports', component: SportsPage },
       { title: 'Technology', component: TechnologyPage },
-      { title: 'Health', component: HealthPage }
+      { title: 'Science', component: SciencePage },
+      { title: 'Movies', component: MoviesPage },
+      { title: 'Fashion', component: FashionPage },
+      { title: 'Books', component: BooksPage},
+      { title: 'Health', component: HealthPage },
+      { title: 'National', component: NationalPage },
+      { title: 'Politics', component: PoliticsPage },
+      { title: 'Upshot', component: UpshotPage },
+      { title: 'Theater', component: TheaterPage },
+      { title: 'Food', component: FoodPage },
+      { title: 'Cars', component: AutomobilesPage },
+      { title: 'Insider', component: InsiderPage },
     ];
 
   }

@@ -9,13 +9,13 @@
   <ion-content>
   </ion-content>
   <ion-content padding *ngIf="news">
-    <ion-card *ngFor="let new of news.results">
+    <ion-card class="card" *ngFor="let new of news.results">
         <ion-item>
-            <h2>{{new.title}}</h2>
-            <p>{{new.updated_date}}</p>
+            <h2 class="cardTitle">{{new.title}}</h2>
+            <p class="cardDate">{{new.updated_date}}</p>
           </ion-item>
         
-          <img src="{{new.multimedia[3].url}}">
+          <img class="cardImage" src="{{new.multimedia[4].url}}">
 
           <ion-card-content>
             <p>{{new.abstract}}</p>
