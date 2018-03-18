@@ -7,9 +7,16 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <ul>
-    <li *ngFor="let new of news">
-    </li>
-  </ul>
+<ion-content padding *ngIf="news">
+  <ion-card *ngFor="let new of news.results">
+      <ion-item>
+          <h2>{{new.title}}</h2>
+          <p>{{new.updated_date}}</p>
+        </ion-item>
+      
+      
+        <ion-card-content>
+          <p>{{new.abstract}}</p>
+        </ion-card-content>
+  </ion-card>
 </ion-content>

@@ -6,15 +6,17 @@ import { NewsProvider } from '../../providers/news/news';
   selector: 'page-home',
   templateUrl: 'home.html'
 })
+
 export class HomePage {
   news: any;
 
   constructor(public navCtrl: NavController, private newsProvider: NewsProvider) { 
-    
+
   }
 
   ionViewWillEnter() { 
     this.newsProvider.getNews().subscribe(news => {
+      this.news = news;
       console.log(news);
   });
   }
