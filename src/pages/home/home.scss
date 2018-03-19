@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Cheltenham_BoldItalic';
+    src: url('../assets/fonts/Cheltenham_BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Imperial';
+    src: url('../assets/fonts/Imperial.ttf') format('truetype');
+}
+
 page-home {
 
 }
@@ -6,8 +16,13 @@ page-home {
     margin-top: 3em;
 }
 
+.card p {
+    //font-family: Imperial;
+}
+
 .cardTitle {
     white-space: normal;
+    //font-family: Cheltenham_BoldItalic;
 }
 
 .cardSubsection {
@@ -17,3 +32,5 @@ page-home {
 .headerLogo {
     margin-top: 5px;
 }
+
+$card-ios-header-color: pink;
