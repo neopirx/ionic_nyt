@@ -3,7 +3,9 @@
       <button ion-button menuToggle>
         <ion-icon name="menu"></ion-icon>
       </button>
-      <ion-title>Home</ion-title>
+      <ion-title>
+        <img class="headerLogo" alt="logo" height="30" src="images/logo.png" > 
+       </ion-title>
     </ion-navbar>
   </ion-header>
   <ion-content>
@@ -13,7 +15,7 @@
         <ion-item>
             <h2 class="cardTitle">{{new.title}}</h2>
             <p class="cardDate"><b>{{new.updated_date | slice:11:19}}</b> {{new.updated_date | slice:0:10}}</p>
-            <p class="cardSubsection">{{new.subsection}}</p>
+            <p class="cardSubsection">{{new.section}}</p>
           </ion-item>
         
           <img *ngIf="new.multimedia.length" class="cardImage" src="{{new.multimedia[4].url}}">
