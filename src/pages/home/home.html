@@ -8,17 +8,19 @@
   </ion-header>
   <ion-content>
   </ion-content>
-  <ion-content padding *ngIf="selectedNews">
-    <ion-card class="card" *ngFor="let new of selectedNews.results">
+  <ion-content padding *ngIf="news">
+    <ion-card class="card" *ngFor="let new of news.results">
         <ion-item>
             <h2 class="cardTitle">{{new.title}}</h2>
-            <p class="cardDate">{{new.updated_date}}</p>
+            <p class="cardDate"><b>{{new.updated_date | slice:11:19}}</b> {{new.updated_date | slice:0:10}}</p>
+            <p class="cardSubsection">{{new.subsection}}</p>
           </ion-item>
         
-          <img class="cardImage" src="{{new.multimedia[4].url}}">
+          <img *ngIf="new.multimedia.length" class="cardImage" src="{{new.multimedia[4].url}}">
 
           <ion-card-content>
             <p>{{new.abstract}}</p>
+            <p><a href="{{new.short_url}}"> Read more on NYT</a></p>
           </ion-card-content>
     </ion-card>
   </ion-content>
