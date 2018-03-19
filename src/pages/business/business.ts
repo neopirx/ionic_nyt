@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 /**
- * Generated class for the WorldPage page.
+ * Generated class for the BusinessPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -10,16 +10,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-world',
-  templateUrl: 'world.html',
+  selector: 'page-business',
+  templateUrl: 'business.html',
 })
-export class WorldPage {
+export class BusinessPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad WorldPage');
+    console.log('ionViewDidLoad BusinessPage');
   }
 
 }

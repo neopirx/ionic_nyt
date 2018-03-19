@@ -23,6 +23,7 @@ import { FoodPage } from '../pages/food/food';
 import { TravelPage } from '../pages/travel/travel';
 import { AutomobilesPage } from '../pages/automobiles/automobiles';
 import { InsiderPage } from '../pages/insider/insider';
+import { BusinessPage } from '../pages/business/business';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -48,7 +49,8 @@ import { NewsProvider } from '../providers/news/news';
     FoodPage,
     TravelPage,
     AutomobilesPage,
-    InsiderPage
+    InsiderPage,
+    BusinessPage
 
   ],
   imports: [
@@ -76,7 +78,8 @@ import { NewsProvider } from '../providers/news/news';
     FoodPage,
     TravelPage,
     AutomobilesPage,
-    InsiderPage
+    InsiderPage,
+    BusinessPage
   ],
   providers: [
     StatusBar,

@@ -8,8 +8,8 @@
   </ion-header>
   <ion-content>
   </ion-content>
-  <ion-content padding *ngIf="news">
-    <ion-card class="card" *ngFor="let new of news.results">
+  <ion-content padding *ngIf="selectedNews">
+    <ion-card class="card" *ngFor="let new of selectedNews.results">
         <ion-item>
             <h2 class="cardTitle">{{new.title}}</h2>
             <p class="cardDate">{{new.updated_date}}</p>

@@ -21,6 +21,8 @@ import { FoodPage } from '../pages/food/food';
 import { TravelPage } from '../pages/travel/travel';
 import { AutomobilesPage } from '../pages/automobiles/automobiles';
 import { InsiderPage } from '../pages/insider/insider';
+import { BusinessPage } from '../pages/business/business';
+import { ArtsPage } from '../pages/arts/arts';
 
 @Component({
   templateUrl: 'app.html'
@@ -39,21 +41,23 @@ export class MyApp {
     this.pages = [
       { title: 'Home', component: HomePage },
       { title: 'World', component: WorldPage },
+      { title: 'Politics', component: PoliticsPage },
+      { title: 'Business', component: BusinessPage },
       { title: 'Opinions', component: OpinionPage },
+      { title: 'National', component: NationalPage },
       { title: 'Sports', component: SportsPage },
       { title: 'Technology', component: TechnologyPage },
       { title: 'Science', component: SciencePage },
+      { title: 'Insider', component: InsiderPage },
       { title: 'Movies', component: MoviesPage },
-      { title: 'Fashion', component: FashionPage },
       { title: 'Books', component: BooksPage},
-      { title: 'Health', component: HealthPage },
-      { title: 'National', component: NationalPage },
-      { title: 'Politics', component: PoliticsPage },
-      { title: 'Upshot', component: UpshotPage },
+      { title: 'Arts', component: ArtsPage },
+      { title: 'Fashion', component: FashionPage },
       { title: 'Theater', component: TheaterPage },
+      { title: 'Health', component: HealthPage },
       { title: 'Food', component: FoodPage },
       { title: 'Cars', component: AutomobilesPage },
-      { title: 'Insider', component: InsiderPage },
+      { title: 'Upshot', component: UpshotPage },
     ];
 
   }
