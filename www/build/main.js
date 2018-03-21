@@ -154,51 +154,6 @@ var BooksPage = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BusinessPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the BusinessPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var BusinessPage = /** @class */ (function () {
-    function BusinessPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    BusinessPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad BusinessPage');
-    };
-    BusinessPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-business',template:/*ion-inline-start:"C:\Users\winds\Desktop\ionic_nyt\nyt\src\pages\business\business.html"*/'<!--\n\n  Generated template for the BusinessPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>business</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\winds\Desktop\ionic_nyt\nyt\src\pages\business\business.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-    ], BusinessPage);
-    return BusinessPage;
-}());
-
-//# sourceMappingURL=business.js.map
-
-/***/ }),
-
-/***/ 104:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FashionPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
@@ -240,7 +195,7 @@ var FashionPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 105:
+/***/ 104:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -285,7 +240,7 @@ var FoodPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 106:
+/***/ 105:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -330,7 +285,7 @@ var HealthPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 107:
+/***/ 106:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -375,7 +330,7 @@ var InsiderPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 108:
+/***/ 107:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -420,7 +375,7 @@ var MoviesPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 109:
+/***/ 108:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -462,6 +417,51 @@ var NationalPage = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=national.js.map
+
+/***/ }),
+
+/***/ 109:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SciencePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the SciencePage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var SciencePage = /** @class */ (function () {
+    function SciencePage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    SciencePage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad SciencePage');
+    };
+    SciencePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-science',template:/*ion-inline-start:"C:\Users\winds\Desktop\ionic_nyt\nyt\src\pages\science\science.html"*/'<!--\n  Generated template for the SciencePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>science</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\winds\Desktop\ionic_nyt\nyt\src\pages\science\science.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    ], SciencePage);
+    return SciencePage;
+}());
+
+//# sourceMappingURL=science.js.map
 
 /***/ }),
 
@@ -514,51 +514,6 @@ var PoliticsPage = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SciencePage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the SciencePage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var SciencePage = /** @class */ (function () {
-    function SciencePage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    SciencePage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad SciencePage');
-    };
-    SciencePage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-science',template:/*ion-inline-start:"C:\Users\winds\Desktop\ionic_nyt\nyt\src\pages\science\science.html"*/'<!--\n  Generated template for the SciencePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>science</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\winds\Desktop\ionic_nyt\nyt\src\pages\science\science.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-    ], SciencePage);
-    return SciencePage;
-}());
-
-//# sourceMappingURL=science.js.map
-
-/***/ }),
-
-/***/ 112:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SportsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
@@ -600,7 +555,7 @@ var SportsPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 113:
+/***/ 112:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -642,6 +597,51 @@ var TechnologyPage = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=technology.js.map
+
+/***/ }),
+
+/***/ 113:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BusinessPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the BusinessPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var BusinessPage = /** @class */ (function () {
+    function BusinessPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    BusinessPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad BusinessPage');
+    };
+    BusinessPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-business',template:/*ion-inline-start:"C:\Users\winds\Desktop\ionic_nyt\nyt\src\pages\business\business.html"*/'<!--\n\n  Generated template for the BusinessPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>business</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\winds\Desktop\ionic_nyt\nyt\src\pages\business\business.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    ], BusinessPage);
+    return BusinessPage;
+}());
+
+//# sourceMappingURL=business.js.map
 
 /***/ }),
 
@@ -814,31 +814,31 @@ var map = {
 		15
 	],
 	"../pages/business/business.module": [
-		299,
+		309,
 		14
 	],
 	"../pages/fashion/fashion.module": [
-		300,
+		299,
 		13
 	],
 	"../pages/food/food.module": [
-		301,
+		300,
 		12
 	],
 	"../pages/health/health.module": [
-		302,
+		301,
 		11
 	],
 	"../pages/insider/insider.module": [
-		303,
+		302,
 		10
 	],
 	"../pages/movies/movies.module": [
-		304,
+		303,
 		9
 	],
 	"../pages/national/national.module": [
-		305,
+		304,
 		8
 	],
 	"../pages/politics/politics.module": [
@@ -846,15 +846,15 @@ var map = {
 		7
 	],
 	"../pages/science/science.module": [
-		307,
+		305,
 		6
 	],
 	"../pages/sports/sports.module": [
-		308,
+		307,
 		5
 	],
 	"../pages/technology/technology.module": [
-		309,
+		308,
 		4
 	],
 	"../pages/theater/theater.module": [
@@ -924,7 +924,7 @@ var HomePage = /** @class */ (function () {
     };
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"C:\Users\winds\Desktop\ionic_nyt\nyt\src\pages\home\home.html"*/'<ion-header>\n\n    <ion-navbar>\n\n      <button ion-button menuToggle>\n\n        <ion-icon name="menu"></ion-icon>\n\n      </button>\n\n      <ion-title>\n\n        <img class="headerLogo" alt="logo" height="30" src="images/logo.png" > \n\n       </ion-title>\n\n    </ion-navbar>\n\n  </ion-header>\n\n  <ion-content>\n\n  </ion-content>\n\n  <ion-content padding *ngIf="news">\n\n    <ion-card class="card" *ngFor="let new of news.results">\n\n        <ion-item>\n\n            <h2 class="cardTitle">{{new.title}}</h2>\n\n            <p class="cardDate"><b>{{new.updated_date | slice:11:19}}</b> {{new.updated_date | slice:0:10}}</p>\n\n            <p class="cardSubsection">{{new.section}}</p>\n\n          </ion-item>\n\n        \n\n          <img *ngIf="new.multimedia.length" class="cardImage" src="{{new.multimedia[4].url}}">\n\n\n\n          <ion-card-content>\n\n            <p class="cardText">{{new.abstract}}</p>\n\n            <p><a href="{{new.short_url}}">Read more on NYT</a></p>\n\n          </ion-card-content>\n\n    </ion-card>\n\n  </ion-content>'/*ion-inline-end:"C:\Users\winds\Desktop\ionic_nyt\nyt\src\pages\home\home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"C:\Users\winds\Desktop\ionic_nyt\nyt\src\pages\home\home.html"*/'<ion-header>\n\n    <ion-navbar>\n\n      <button ion-button menuToggle>\n\n        <ion-icon name="menu"></ion-icon>\n\n      </button>\n\n      <ion-title>\n\n        <img class="headerLogo" alt="logo" height="30" src="images/logo.png" > \n\n       </ion-title>\n\n    </ion-navbar>\n\n  </ion-header>\n\n  <ion-content>\n\n  </ion-content>\n\n  <ion-content padding *ngIf="news">\n\n    <ion-card class="card" *ngFor="let new of news.results">\n\n        <ion-item>\n\n            <h2 class="cardTitle">{{new.title}}</h2>\n\n            <p class="cardSubsection">{{new.section}}</p>\n\n            <p class="cardDate">{{new.updated_date | slice:11:19}}   {{new.updated_date | slice:0:10}}</p>\n\n          </ion-item>\n\n        \n\n          <img *ngIf="new.multimedia.length" class="cardImage" src="{{new.multimedia[4].url}}">\n\n\n\n          <ion-card-content>\n\n            <p class="cardText">{{new.abstract}}</p>\n\n            <a class="buttonLink" href="{{new.short_url}}"><button ion-button round outline class="readMoreButton">Read more on NYT</button></a>\n\n          </ion-card-content>\n\n    </ion-card>\n\n  </ion-content>'/*ion-inline-end:"C:\Users\winds\Desktop\ionic_nyt\nyt\src\pages\home\home.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__providers_news_news__["a" /* NewsProvider */]])
     ], HomePage);
@@ -1097,22 +1097,22 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_home_home__ = __webpack_require__(214);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_opinion_opinion__ = __webpack_require__(215);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_world_world__ = __webpack_require__(116);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_sports_sports__ = __webpack_require__(112);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_technology_technology__ = __webpack_require__(113);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_health_health__ = __webpack_require__(106);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_science_science__ = __webpack_require__(111);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_movies_movies__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_fashion_fashion__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_sports_sports__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_technology_technology__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_health_health__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_science_science__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_movies_movies__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_fashion_fashion__ = __webpack_require__(103);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_books_books__ = __webpack_require__(102);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_national_national__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_national_national__ = __webpack_require__(108);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_politics_politics__ = __webpack_require__(110);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_upshot_upshot__ = __webpack_require__(115);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_theater_theater__ = __webpack_require__(114);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_food_food__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_food_food__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_travel_travel__ = __webpack_require__(217);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_automobiles_automobiles__ = __webpack_require__(101);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_insider_insider__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_business_business__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_insider_insider__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_business_business__ = __webpack_require__(113);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__ionic_native_status_bar__ = __webpack_require__(210);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__ionic_native_splash_screen__ = __webpack_require__(213);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__providers_news_news__ = __webpack_require__(100);
@@ -1183,17 +1183,17 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/arts/arts.module#ArtsPageModule', name: 'ArtsPage', segment: 'arts', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/automobiles/automobiles.module#AutomobilesPageModule', name: 'AutomobilesPage', segment: 'automobiles', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/books/books.module#BooksPageModule', name: 'BooksPage', segment: 'books', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/business/business.module#BusinessPageModule', name: 'BusinessPage', segment: 'business', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/fashion/fashion.module#FashionPageModule', name: 'FashionPage', segment: 'fashion', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/food/food.module#FoodPageModule', name: 'FoodPage', segment: 'food', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/health/health.module#HealthPageModule', name: 'HealthPage', segment: 'health', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/insider/insider.module#InsiderPageModule', name: 'InsiderPage', segment: 'insider', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/movies/movies.module#MoviesPageModule', name: 'MoviesPage', segment: 'movies', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/national/national.module#NationalPageModule', name: 'NationalPage', segment: 'national', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/politics/politics.module#PoliticsPageModule', name: 'PoliticsPage', segment: 'politics', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/science/science.module#SciencePageModule', name: 'SciencePage', segment: 'science', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/politics/politics.module#PoliticsPageModule', name: 'PoliticsPage', segment: 'politics', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/sports/sports.module#SportsPageModule', name: 'SportsPage', segment: 'sports', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/technology/technology.module#TechnologyPageModule', name: 'TechnologyPage', segment: 'technology', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/business/business.module#BusinessPageModule', name: 'BusinessPage', segment: 'business', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/theater/theater.module#TheaterPageModule', name: 'TheaterPage', segment: 'theater', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/travel/travel.module#TravelPageModule', name: 'TravelPage', segment: 'travel', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/upshot/upshot.module#UpshotPageModule', name: 'UpshotPage', segment: 'upshot', priority: 'low', defaultHistory: [] },
@@ -1252,21 +1252,21 @@ var AppModule = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(214);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_opinion_opinion__ = __webpack_require__(215);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_world_world__ = __webpack_require__(116);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_sports_sports__ = __webpack_require__(112);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_technology_technology__ = __webpack_require__(113);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_health_health__ = __webpack_require__(106);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_science_science__ = __webpack_require__(111);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_movies_movies__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_fashion_fashion__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_sports_sports__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_technology_technology__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_health_health__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_science_science__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_movies_movies__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_fashion_fashion__ = __webpack_require__(103);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_books_books__ = __webpack_require__(102);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_national_national__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_national_national__ = __webpack_require__(108);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_politics_politics__ = __webpack_require__(110);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_upshot_upshot__ = __webpack_require__(115);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_theater_theater__ = __webpack_require__(114);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_food_food__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_food_food__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_automobiles_automobiles__ = __webpack_require__(101);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_insider_insider__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_business_business__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_insider_insider__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_business_business__ = __webpack_require__(113);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_arts_arts__ = __webpack_require__(216);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;

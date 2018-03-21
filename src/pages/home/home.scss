@@ -12,17 +12,26 @@ page-home {
 
 }
 
-.card {
+.card-ios {
     margin-top: 3em;
 }
 
-.card p {
-    //font-family: Imperial;
+.item-ios h2  {
+    font-size: 2.3rem;
+}
+
+.item-ios p {
+    font-family: "Imperial";
+    color: black;
+}
+
+.ion-card {
+    margin-top: 1rem;
 }
 
 .cardTitle {
     white-space: normal;
-    //font-family: Cheltenham_BoldItalic;
+    font-family: Cheltenham_BoldItalic;
 }
 
 .cardSubsection {
@@ -33,4 +42,26 @@ page-home {
     margin-top: 5px;
 }
 
-$card-ios-header-color: pink;
+.item-ios .cardSubsection {
+    margin-top: 0.8em;
+    text-decoration: underline;
+    font-size: 1em;
+}
+
+.item-ios .cardDate {
+    font-size: 1em;
+}
+
+.card-ios p {
+    font-family: "Imperial";
+    font-size: 1.2em;
+}
+
+.readMoreButton {
+    margin-top: 1.5em;
+    margin-left: 4em;
+}
+
+.bar-button-default-ios {
+    color: black;
+}

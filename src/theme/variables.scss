@@ -45,7 +45,13 @@ $colors: (
 // App iOS Variables
 // --------------------------------------------------
 // iOS only Sass variables can go here
-
+$button-ios-text-color: color($colors, dark);
+$button-ios-outline-border-color: color($colors, dark);
+$button-ios-outline-text-color: color($colors, dark);
+$button-ios-background-color-activated: color($colors, light);
+$button-ios-outline-background-color-activated: color($colors, light);
+$button-ios-text-color-activated: color($colors, dark);
+$button-ios-outline-text-color-activated: color($colors, dark);
 
 // App Material Design Variables
 // --------------------------------------------------
