@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { NewsProvider } from '../../providers/news/news';
 
 /**
  * Generated class for the ArtsPage page.
@@ -14,12 +15,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'arts.html',
 })
 export class ArtsPage {
-
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  news: any;
+  
+  constructor(public navCtrl: NavController, private newsProvider: NewsProvider) { 
+    
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad ArtsPage');
+  ionViewWillEnter() { 
+    this.newsProvider.getNewsArt()
+      .subscribe(news => {
+        this.news = news;
+    });
   }
-
 }

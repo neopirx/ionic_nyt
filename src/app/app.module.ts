@@ -24,10 +24,13 @@ import { TravelPage } from '../pages/travel/travel';
 import { AutomobilesPage } from '../pages/automobiles/automobiles';
 import { InsiderPage } from '../pages/insider/insider';
 import { BusinessPage } from '../pages/business/business';
+import { ArtsPage } from '../pages/arts/arts';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { NewsProvider } from '../providers/news/news';
+
+import { SocialSharing } from '@ionic-native/social-sharing';
 
 @NgModule({
   declarations: [
@@ -50,7 +53,8 @@ import { NewsProvider } from '../providers/news/news';
     TravelPage,
     AutomobilesPage,
     InsiderPage,
-    BusinessPage
+    BusinessPage,
+    ArtsPage
 
   ],
   imports: [
@@ -79,13 +83,15 @@ import { NewsProvider } from '../providers/news/news';
     TravelPage,
     AutomobilesPage,
     InsiderPage,
-    BusinessPage
+    BusinessPage,
+    ArtsPage
   ],
   providers: [
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    NewsProvider
+    NewsProvider,
+    SocialSharing
   ]
 })
 export class AppModule {}

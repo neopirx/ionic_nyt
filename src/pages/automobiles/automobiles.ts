@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { NewsProvider } from '../../providers/news/news';
 
 /**
  * Generated class for the AutomobilesPage page.
@@ -13,13 +14,18 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   selector: 'page-automobiles',
   templateUrl: 'automobiles.html',
 })
+
 export class AutomobilesPage {
-
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  news: any;
+  
+  constructor(public navCtrl: NavController, private newsProvider: NewsProvider) { 
+    
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad AutomobilesPage');
+  ionViewWillEnter() { 
+    this.newsProvider.getNewsCars()
+      .subscribe(news => {
+        this.news = news;
+    });
   }
-
 }
