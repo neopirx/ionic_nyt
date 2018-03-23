@@ -32,6 +32,8 @@ import { NewsProvider } from '../providers/news/news';
 
 import { SocialSharing } from '@ionic-native/social-sharing';
 
+import { FilterPipe} from '../pipes/filter.pipe';
+
 @NgModule({
   declarations: [
     MyApp,
@@ -54,8 +56,8 @@ import { SocialSharing } from '@ionic-native/social-sharing';
     AutomobilesPage,
     InsiderPage,
     BusinessPage,
-    ArtsPage
-
+    ArtsPage,
+    FilterPipe 
   ],
   imports: [
     BrowserModule,

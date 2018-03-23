@@ -53,6 +53,10 @@ $button-ios-outline-background-color-activated: color($colors, light);
 $button-ios-text-color-activated: color($colors, dark);
 $button-ios-outline-text-color-activated: color($colors, dark);
 
+
+$searchbar-ios-background-color: white;
+$searchbar-ios-border-color: white;
+$searchbar-ios-input-background-color: rgba(0, 0, 0, .05);
 // App Material Design Variables
 // --------------------------------------------------
 // Material Design only Sass variables can go here

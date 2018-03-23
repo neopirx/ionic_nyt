@@ -17408,8 +17408,8 @@ ion-searchbar {
   padding: 0 8px;
   min-height: 44px;
   border-top: 0.55px solid transparent;
-  border-bottom: 0.55px solid rgba(0, 0, 0, 0.05);
-  background: rgba(0, 0, 0, 0.2);
+  border-bottom: 0.55px solid white;
+  background: white;
 }
 
 .searchbar-ios .searchbar-search-icon {
@@ -17431,7 +17431,7 @@ ion-searchbar {
   font-size: 1.4rem;
   font-weight: 400;
   color: #000;
-  background-color: #fff;
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 .searchbar-ios .searchbar-input::-moz-placeholder {
@@ -25688,21 +25688,17 @@ ion-navbar.toolbar {
   src: url("../assets/fonts/Imperial.ttf") format("truetype");
 }
 
-.card-ios {
-  margin-top: 3em;
-}
-
 .item-ios h2 {
   font-size: 2.3rem;
+}
+
+.card-ios {
+  margin-top: 3em;
 }
 
 .item-ios p {
   font-family: "Imperial";
   color: black;
-}
-
-.ion-card {
-  margin-top: 2rem;
 }
 
 .cardTitle {
@@ -25740,4 +25736,12 @@ ion-navbar.toolbar {
 
 .bar-button-default-ios {
   color: black;
+}
+
+.mainSearchbar {
+  margin-top: 0em;
+}
+
+.mainContent {
+  margin-top: 0em;
 }
