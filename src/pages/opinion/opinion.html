@@ -1,24 +1,28 @@
 <ion-header>
-    <ion-navbar>
-      <button ion-button menuToggle>
-        <ion-icon name="menu"></ion-icon>
-      </button>
-      <ion-title>Opinion</ion-title>
-    </ion-navbar>
-  </ion-header>
-  <ion-content>
-    
-  </ion-content>
-  <ion-content padding *ngIf="news">
-    <ion-card *ngFor="let new of news.results">
-        <ion-item>
-            <h2>{{new.title}}</h2>
-            <p>{{new.updated_date}}</p>
-          </ion-item>
-        
-        
-          <ion-card-content>
-            <p>{{new.abstract}}</p>
-          </ion-card-content>
-    </ion-card>
-  </ion-content>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      <img class="headerLogo" alt="logo" height="30" src="images/logo.png">
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding *ngIf="news" class="mainContent">
+  <ion-card class="card" *ngFor="let new of news.results">
+    <ion-item>
+      <h2 class="cardTitle">{{new.title}}</h2>
+      <p class="cardSubsection">{{new.section}}</p>
+      <p class="cardDate">{{new.updated_date | slice:11:19}} {{new.updated_date | slice:0:10}}</p>
+    </ion-item>
+
+    <img *ngIf="new.multimedia.length" class="cardImage" src="{{new.multimedia[4].url}}">
+
+    <ion-card-content>
+      <p class="cardText">{{new.abstract}}</p>
+      <a class="buttonLink" href="{{new.short_url}}">
+        <button ion-button round outline class="readMoreButton">Read more on NYT</button>
+      </a>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
