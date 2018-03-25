@@ -1,14 +1,14 @@
 webpackJsonp([8],{
 
-/***/ 305:
+/***/ 304:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NationalPageModule", function() { return NationalPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HealthPageModule", function() { return HealthPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__national__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__health__ = __webpack_require__(109);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var NationalPageModule = /** @class */ (function () {
-    function NationalPageModule() {
+var HealthPageModule = /** @class */ (function () {
+    function HealthPageModule() {
     }
-    NationalPageModule = __decorate([
+    HealthPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__national__["a" /* NationalPage */],
+                __WEBPACK_IMPORTED_MODULE_2__health__["a" /* HealthPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__national__["a" /* NationalPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__health__["a" /* HealthPage */]),
             ],
         })
-    ], NationalPageModule);
-    return NationalPageModule;
+    ], HealthPageModule);
+    return HealthPageModule;
 }());
 
-//# sourceMappingURL=national.module.js.map
+//# sourceMappingURL=health.module.js.map
 
 /***/ })
 
