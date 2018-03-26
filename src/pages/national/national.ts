@@ -16,7 +16,7 @@ export class NationalPage {
     
   }
 
-  ionViewWillEnter() { 
+  ionViewWillEnter() {
     this.newsProvider.getNewsNational()
       .subscribe(news => {
         this.news = news;
